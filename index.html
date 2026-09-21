@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Labib Achmad Muzayyanul Chanaf — Website Developer & Full-Stack Developer." />
+  <title>Labib — Website Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home"><span>LA</span> Labib.</a>
+    <button class="menu-btn" aria-label="Buka menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">WEBSITE DEVELOPER · FULL-STACK</p>
+        <h1>Membangun website yang <em>modern</em>, cepat, dan punya tujuan.</h1>
+        <p class="lead">Saya Labib, website developer yang membangun website, web app, dan aplikasi digital dari ide sampai siap digunakan.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Lihat Project <span>↗</span></a>
+          <a class="btn ghost" href="#contact">Hubungi Saya</a>
+        </div>
+        <div class="stats">
+          <div><strong>06+</strong><span>Projects</span></div>
+          <div><strong>3+</strong><span>Tech Stack</span></div>
+          <div><strong>∞</strong><span>Curiosity</span></div>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orb"></div>
+        <div class="code-card">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <pre><code><span class="pink">const</span> developer = {
+  name: <span class="green">"Labib"</span>,
+  role: <span class="green">"Web Developer"</span>,
+  stack: [
+    <span class="green">"React"</span>,
+    <span class="green">"Laravel"</span>,
+    <span class="green">"Tailwind"</span>
+  ],
+  build: <span class="blue">true</span>
+};</code></pre>
+        </div>
+        <div class="floating-tag tag-one">React / Vite</div>
+        <div class="floating-tag tag-two">Laravel</div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-head reveal">
+        <p class="eyebrow">01 — ABOUT</p>
+        <h2>Developer yang suka mengubah ide menjadi produk digital.</h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-text reveal">Saya fokus mengembangkan kemampuan di bidang website development. Saya menikmati proses merancang UI, membangun fitur, menghubungkan database/API, hingga melakukan deployment.</p>
+        <div class="about-points reveal">
+          <div><span>01</span><b>Clean UI</b><small>Antarmuka modern, responsif, dan nyaman digunakan.</small></div>
+          <div><span>02</span><b>Functional</b><small>Fokus pada fitur yang benar-benar bekerja dan mudah dikembangkan.</small></div>
+          <div><span>03</span><b>Continuous Learning</b><small>Terus eksplor teknologi dan workflow baru.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-head reveal">
+        <p class="eyebrow">02 — SELECTED WORK</p>
+        <h2>Project yang pernah saya kerjakan.</h2>
+        <p>Beberapa project personal, akademik, dan freelance yang menjadi bagian dari perjalanan saya sebagai developer.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-image gradient-two"><span>CAFE / PORTFOLIO</span><div class="mini-site"><b>CAFE</b><small>Menu · About · Contact</small></div></div>
+          <div class="project-body"><div class="project-meta"><span>02</span><span>FREELANCE</span></div><h3>Cafe Company Profile</h3><p>Website company profile cafe dengan menu, testimonial, galeri, kontak, dark mode, dan WhatsApp CTA.</p><div class="chips"><i>React</i><i>Vite</i><i>Tailwind</i><i>Framer Motion</i></div></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image gradient-three"><span>STUDENT MANAGER</span><div class="phone"><div class="phone-screen">Dashboard<br><strong>Rp 1.250.000</strong><br><small>Financial Report</small></div></div></div>
+          <div class="project-body"><div class="project-meta"><span>03</span><span>ANDROID APP</span></div><h3>Smart Student Manager</h3><p>Aplikasi manajemen siswa dan keuangan dengan laporan serta export PDF.</p><div class="chips"><i>Android</i><i>Java/Kotlin</i><i>PDF</i></div></div></article>
+
+        <article class="project-card reveal">
+          <div class="project-image gradient-four"><span>SERVICE / COMPANY</span><div class="dashboard"><b>Admin Dashboard</b><div class="dash-row"></div><div class="dash-row"></div><div class="dash-row"></div></div></div>
+          <div class="project-body"><div class="project-meta"><span>04</span><span>FULL-STACK</span></div><h3>HP Service Company Profile</h3><p>Website layanan service dengan struktur company profile dan area administrasi.</p><div class="chips"><i>Laravel</i><i>Tailwind CSS</i><i>MySQL</i></div></div></article>
+
+        <article class="project-card reveal">
+          <div class="project-image gradient-five"><span>WEB APP</span><div class="terminal"><span>python</span> app.py<br><b>Running on localhost...</b></div></div>
+          <div class="project-body"><div class="project-meta"><span>05</span><span>ACADEMIC</span></div><h3>Student Management</h3><p>Eksperimen web app pengelolaan data siswa menggunakan Python, Flask, dan database.</p><div class="chips"><i>Python</i><i>Flask</i><i>SQLite</i></div></div></article>
+
+        <article class="project-card reveal">
+          <div class="project-image gradient-six"><span>PORTFOLIO</span><div class="browser"><b>LA.</b><span>Developer Portfolio</span></div></div>
+          <div class="project-body"><div class="project-meta"><span>06</span><span>PERSONAL</span></div><h3>Developer Portfolio</h3><p>Website personal branding untuk menampilkan project, skill, dan profil sebagai developer.</p><div class="chips"><i>React</i><i>Tailwind</i><i>Vercel</i></div></div></article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-head reveal"><p class="eyebrow">03 — TOOLBOX</p><h2>Teknologi yang saya gunakan.</h2></div>
+      <div class="skill-list reveal">
+        <div><b>Frontend</b><span>HTML · CSS · JavaScript · React · Vite · Tailwind CSS</span></div>
+        <div><b>Backend</b><span>Node.js · Laravel · PHP · Python · Flask · REST API</span></div>
+        <div><b>Database</b><span>MySQL · SQLite · PostgreSQL · Prisma</span></div>
+        <div><b>Tools</b><span>Git · GitHub · VS Code · Vercel · Docker</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">04 — LET'S WORK</p>
+        <h2>Punya ide website?</h2>
+        <p>Mari ngobrol dan lihat bagaimana ide tersebut bisa diwujudkan menjadi website yang profesional.</p>
+        <div class="actions">
+          <a class="btn primary" href="mailto:l4m.market@gmail.com" target="_blank" rel="noreferrer">Email Saya ↗</a>
+          <a class="btn primary" href="https://wa.me/6282189948755?text=Saya%20tertarik%20dengan%20jasa%20anda" target="_blank" rel="noreferrer">WhatsApp ↗</a>
+          <a class="btn ghost" href="https://github.com/lamnaf" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Labib.</span><span>Built with curiosity & code.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
